@@ -6,8 +6,8 @@
 
 def happy_birthday(birthday_kids)
   # add your code snippet here!
-  birthday_kids.each do |kids_name, age.to_i|
-    if age <= 12
+  birthday_kids.each do |kids_name, age|
+    if age.to_i <= 12
     puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
     end
   end
